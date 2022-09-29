@@ -40,8 +40,8 @@ Elaborar una aplicación que tenga la funciòn de Sensor para alertar al usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
 | 1  | Funcionalidad del proyecto                    |  Alta         | 0.5           |Realizar prubas correspondientes con alguna detección de gas para comprobar que su funcionamiento sea el correcto.            |Integrantes de equipo             |
-| 2  |Funcionalidad del sensor de gas MQ 3   | Alta          | 0.5          | Realizar prueba con algún gas posible de verificar el funcionamiento del mismo.             | Integrantes de equipo |
-| 3  | Funcionalidad de los leds             | Media         |  0.3          | Realizar prueba segun el nivel del gas se encenderan             |   integrantes del equipo          |
+| 2  |Funcionalidad del sensor   | Alta          | 0.5          | Realizar prueba con algùn objeto y verofocar que llegue la nptofocaciòn del mismo.             | Integrantes de equipo |
+| 3  | Funcionalidad del foco             | Media         |  0.3          | Realizar prueba para verificar el funcionamiento del foco             |   integrantes del equipo          |
 
 ## Boceto
-![image](https://web.whatsapp.com/0129b402-3061-4126-ae45-e15a65b0b8d9)
+![image](https://user-images.githubusercontent.com/114530252/193131130-8c1bf856-4f02-4f27-a49c-0fe42ffa8b16.png)
