@@ -1,4 +1,4 @@
-# Sentot Detector de moviento
+# Sensor Detector de moviento
 
 ## Integrantes
 - González Hernández Omar Martín 
