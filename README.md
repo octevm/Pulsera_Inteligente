@@ -20,7 +20,8 @@ Elaborar una aplicación que tenga la funciòn de Sensor para alertar al usuario
 | Id | Componente | Descripción |                                          Imagen                                                   | Cantidad | Costo total |
 |----|------------|-------------|---------------------------------------------------------------------------------------------------|----------|-------------|
 | 1  |   ESP32    | El módulo ESP32 es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos|![image]()|   1      |   165       
-| 2  |Sensor      |El módulo Ray Optics Module puede utilizarse para modelar propagación de ondas electromagnéticas en sistemas en los que la longitud de onda es mucho menor que el menor detalle geométrico en el modelo. |![image](https://user-images.githubusercontent.com/99991865/192932983-84794e7e-a316-4e55-825b-cfb9cd3e808a.png)|   1      |   15          |
+| 2  |Sensor      |El módulo Ray Optics Module puede utilizarse para modelar propagación de ondas electromagnéticas en sistemas en los que la longitud de onda es mucho menor que el menor detalle geométrico en el modelo. |![image](![image](https://user-images.githubusercontent.com/114530252/193129351-bd6be0c7-6dee-45eb-87a9-7538fc797dd2.png)
+)|   1      |   15          |
 | 3  |Cables Dupont|Un diodo LED es un dispositivo que permite el paso de corriente en un solo sentido y que al ser polarizado emite un haz de luz|![image](https://user-images.githubusercontent.com/99991865/192933020-9a90e9b7-8c89-410f-a89d-7dc7f99814ef.png)|   1      |      15     |
 | 5  |Un foco    |Un diodo LED es un dispositivo que permite el paso de corriente en un solo sentido y que al ser polarizado emite un haz de luz|![image](https://user-images.githubusercontent.com/99991865/192933021-f55b80cb-b9ae-44ac-99c5-23cd6ff9bc79.png)|   1      |      15     |
 | 6  |Sensor RIP|se utilizan en los circuitos para limitar el valor de la corriente o para fijar el valor de la tensión, según la Ley de Ohm|![image](https://user-images.githubusercontent.com/99991865/192933039-0b857725-d306-4ced-ae16-679589196f19.png)|   5      |  10         |
@@ -41,3 +42,6 @@ Elaborar una aplicación que tenga la funciòn de Sensor para alertar al usuario
 | 1  | Funcionalidad del proyecto                    |  Alta         | 0.5           |Realizar prubas correspondientes con alguna detección de gas para comprobar que su funcionamiento sea el correcto.            |Integrantes de equipo             |
 | 2  |Funcionalidad del sensor de gas MQ 3   | Alta          | 0.5          | Realizar prueba con algún gas posible de verificar el funcionamiento del mismo.             | Integrantes de equipo |
 | 3  | Funcionalidad de los leds             | Media         |  0.3          | Realizar prueba segun el nivel del gas se encenderan             |   integrantes del equipo          |
+
+## Boceto
+![image](https://web.whatsapp.com/0129b402-3061-4126-ae45-e15a65b0b8d9)
