@@ -1,4 +1,4 @@
-# Pulsera_Inteligente
+# Sentot Detector de moviento
 
 ## Integrantes
 - González Hernández Omar Martín 
@@ -7,7 +7,7 @@
 - Gutierrez Rodríguez José Armando
 
 ## Objetivo General
-Elaborar una aplicación que nos permita utilizar funciones del celular (hora,)
+Elaborar una aplicación que tenga la funciòn de Sensor para alertar al usuario si es que algo pasa cerca del rango, mandando una notificaciòn a Telegram y a su vez, encenderia una luz al momento de detectar el movimiento
 
 ## Tabla de Software utilizado 
 | id |  Software          |  Versión  |  Tipo  |
@@ -16,21 +16,17 @@ Elaborar una aplicación que nos permita utilizar funciones del celular (hora,)
 |    |                    |           |        |
 
 
-
-
-
-
 ## Tabla con el hardware utilizado
 | Id | Componente | Descripción |                                          Imagen                                                   | Cantidad | Costo total |
 |----|------------|-------------|---------------------------------------------------------------------------------------------------|----------|-------------|
-| 1  |   ESP32    | El módulo ESP32 es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos|![image](https://user-images.githubusercontent.com/99991865/192933367-82d60a6b-83a0-4d76-9aa7-742fb42d2d3c.png)|   1      |   165       
-| 2  |Led verdes  |Un diodo LED es un dispositivo que permite el paso de corriente en un solo sentido y que al ser polarizado emite un haz de luz |![image](https://user-images.githubusercontent.com/99991865/192932983-84794e7e-a316-4e55-825b-cfb9cd3e808a.png)|   1      |   15          |
-| 4  |Led amarillo|Un diodo LED es un dispositivo que permite el paso de corriente en un solo sentido y que al ser polarizado emite un haz de luz|![image](https://user-images.githubusercontent.com/99991865/192933020-9a90e9b7-8c89-410f-a89d-7dc7f99814ef.png)|   1      |      15     |
-| 5  |Led rojo    |Un diodo LED es un dispositivo que permite el paso de corriente en un solo sentido y que al ser polarizado emite un haz de luz|![image](https://user-images.githubusercontent.com/99991865/192933021-f55b80cb-b9ae-44ac-99c5-23cd6ff9bc79.png)|   1      |      15     |
-| 6  |Resistencias de 1k|se utilizan en los circuitos para limitar el valor de la corriente o para fijar el valor de la tensión, según la Ley de Ohm|![image](https://user-images.githubusercontent.com/99991865/192933039-0b857725-d306-4ced-ae16-679589196f19.png)|   5      |  10         |
-| 7  |Protoboard  |es un tablero con orificios que se encuentran conectados eléctricamente entre sí de manera interna, habitualmente siguiendo patrones de líneas, en el cual se pueden insertar componentes electrónicos, cables para el armado|![image](https://user-images.githubusercontent.com/99991865/192933683-d1955de9-b1fa-4063-8218-b822c8b7eedf.png)|   1      |     110        |
-| 8  |Cables     |sirve para conectar todos los compenetes a la protoboard|![image](https://user-images.githubusercontent.com/99991865/192934122-6938a1d7-55a6-4caa-85c9-80a27cf06301.png)|   5      |    55        |
-| 9  |sensor de alcohol|Dispositivo que detecta vapor de alcohol y entrega una salida análoga dependiendo de la concentración. Descripción: Dispositivo que detecta vapor de alcohol y entrega una salida análoga dependiendo de la concentración de alcohol|![image](https://user-images.githubusercontent.com/99991865/192934822-a7126c55-1201-467f-b89a-ab26aeb36c17.png)|   1      |    85        |
+| 1  |   ESP32    | El módulo ESP32 es una solución de Wi-Fi/Bluetooth todo en uno, integrada y certificada que proporciona no solo la radio inalámbrica, sino también un procesador integrado con interfaces para conectarse con varios periféricos|![image]()|   1      |   165       
+| 2  |Sensor      |El módulo Ray Optics Module puede utilizarse para modelar propagación de ondas electromagnéticas en sistemas en los que la longitud de onda es mucho menor que el menor detalle geométrico en el modelo. |![image](https://user-images.githubusercontent.com/99991865/192932983-84794e7e-a316-4e55-825b-cfb9cd3e808a.png)|   1      |   15          |
+| 3  |Cables Dupont|Un diodo LED es un dispositivo que permite el paso de corriente en un solo sentido y que al ser polarizado emite un haz de luz|![image](https://user-images.githubusercontent.com/99991865/192933020-9a90e9b7-8c89-410f-a89d-7dc7f99814ef.png)|   1      |      15     |
+| 5  |Un foco    |Un diodo LED es un dispositivo que permite el paso de corriente en un solo sentido y que al ser polarizado emite un haz de luz|![image](https://user-images.githubusercontent.com/99991865/192933021-f55b80cb-b9ae-44ac-99c5-23cd6ff9bc79.png)|   1      |      15     |
+| 6  |Sensor RIP|se utilizan en los circuitos para limitar el valor de la corriente o para fijar el valor de la tensión, según la Ley de Ohm|![image](https://user-images.githubusercontent.com/99991865/192933039-0b857725-d306-4ced-ae16-679589196f19.png)|   5      |  10         |
+| 7  |Pines Macho  |es un tablero con orificios que se encuentran conectados eléctricamente entre sí de manera interna, habitualmente siguiendo patrones de líneas, en el cual se pueden insertar componentes electrónicos, cables para el armado|![image](https://user-images.githubusercontent.com/99991865/192933683-d1955de9-b1fa-4063-8218-b822c8b7eedf.png)|   1      |     110        |
+| 8  |Zòcalo   de 40 pines  |Es una herramienta de alta calidad y sencilla conexión que facilita la programación a circuitos integrados DIP o de microcontroladores, como su nombre lo indica (fuerza de inserción cero) el chip solo caerá en el zócalo y una presión de la palanca bloqueará en su lugar.|![image](https://user-images.githubusercontent.com/99991865/192934122-6938a1d7-55a6-4caa-85c9-80a27cf06301.png)|   5      |    55        |
+| 9  |Modulo Ray|El módulo Ray Optics Module puede utilizarse para modelar propagación de ondas electromagnéticas en sistemas en los que la longitud de onda es mucho menor que el menor detalle geométrico en el modelo.|![image](https://user-images.githubusercontent.com/99991865/192934822-a7126c55-1201-467f-b89a-ab26aeb36c17.png)|   1      |    85        |
 
 
 ## Epicas del proyecto
