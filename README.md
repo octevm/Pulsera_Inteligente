@@ -28,7 +28,7 @@ Elaborar una aplicación que tenga la funciòn de Sensor para alertar al usuario
 | 7  |Pines Macho  |Tira de pines macho quebrantables. Este tipo de conector es ampliamente usado en múltiples aplicaciones. Pueden separarse en segmentos para adecuarse a la cantidad de conexiones requeridas. Excelentes para ser usados con Cables Jumper Hembra, Pines hembra, Protoboard etc|![image](https://user-images.githubusercontent.com/114530252/193268571-78af554a-6a0c-4360-ae71-48fce80e0a77.png)
 |   1      |     110        |
 | 8  |Zòcalo   de 40 pines  |Es una herramienta de alta calidad y sencilla conexión que facilita la programación a circuitos integrados DIP o de microcontroladores, como su nombre lo indica (fuerza de inserción cero) el chip solo caerá en el zócalo y una presión de la palanca bloqueará en su lugar.|![image](https://user-images.githubusercontent.com/99991865/192934122-6938a1d7-55a6-4caa-85c9-80a27cf06301.png)|   5      |    55        |
-| 9  |Modulo Ray|El módulo Ray Optics Module puede utilizarse para modelar propagación de ondas electromagnéticas en sistemas en los que la longitud de onda es mucho menor que el menor detalle geométrico en el modelo.|![image](https://user-images.githubusercontent.com/99991865/192934822-a7126c55-1201-467f-b89a-ab26aeb36c17.png)|   1      |    85        |
+| 9  |Modulo Ray|El módulo Ray Optics Module puede utilizarse para modelar propagación de ondas electromagnéticas en sistemas en los que la longitud de onda es mucho menor que el menor detalle geométrico en el modelo.|![image](https://user-images.githubusercontent.com/114530252/193269171-54ac87d8-d8fa-4e5e-98c2-ccfbd0052e72.png)|   1      |    85        |
 
 
 ## Epicas del proyecto
