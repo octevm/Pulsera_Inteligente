@@ -1,4 +1,4 @@
-# Sensor Detector de moviento
+# Sensor Detector de moviento (Sistema de seguridad)
 
 ## Integrantes
 - González Hernández Omar Martín 
